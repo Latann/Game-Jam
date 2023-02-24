@@ -523,7 +523,7 @@ MonoBehaviour:
   zone4: {fileID: 0}
   zone5: {fileID: 0}
   ObjetaUnlock: {fileID: 0}
-  Portail: {fileID: 5035538361801579891, guid: 51442b6081fa63f428f7f44ef2685b0b, type: 3}
+  Portail: {fileID: 8733125864607783811, guid: cd75dc34e862ac34abb5df670ff03296, type: 3}
 --- !u!64 &301281082
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2210,11 +2210,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434769312829816726, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018988912
+      value: 0.000000018988915
       objectReference: {fileID: 0}
     - target: {fileID: 7434769312829816726, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000030814762
+      value: -0.0000000030814769
       objectReference: {fileID: 0}
     - target: {fileID: 7434769313301817173, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2262,11 +2262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434769313650369256, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042682773
+      value: 0.000000004268278
       objectReference: {fileID: 0}
     - target: {fileID: 7434769313650369256, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 5.343469e-10
+      value: -5.34347e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7434769313881408269, guid: f1fd9a4d1f8532544bb82463623771d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3459,7 +3459,7 @@ GameObject:
   - component: {fileID: 1848027181}
   - component: {fileID: 1848027180}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -23,8 +23,7 @@ public class EnigmeButton : MonoBehaviour
         zoneGameObjects.Add(1, zone1);
         zoneGameObjects.Add(2, zone2);
         zoneGameObjects.Add(3, zone3);
-        zoneGameObjects.Add(4, zone4);
-        zoneGameObjects.Add(5, zone5);
+
     }
 
     void OnTriggerStay(Collider other)
@@ -35,7 +34,7 @@ public class EnigmeButton : MonoBehaviour
             {
                 lastZone = currentZone;
                 currentZone++;
-                if (currentZone > 4)
+                if (currentZone > 3)
                 {
                     Instantiate(Portail);
                     Debug.Log ("oui");

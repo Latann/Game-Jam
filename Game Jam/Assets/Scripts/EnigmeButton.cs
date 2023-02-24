@@ -8,7 +8,9 @@ public class EnigmeButton : MonoBehaviour
     public GameObject zone2;
     public GameObject zone3;
     public GameObject zone4;
+    public GameObject zone5;
     public GameObject ObjetaUnlock;
+    public GameObject Portail;
 
 
     private int currentZone = 1;
@@ -22,6 +24,7 @@ public class EnigmeButton : MonoBehaviour
         zoneGameObjects.Add(2, zone2);
         zoneGameObjects.Add(3, zone3);
         zoneGameObjects.Add(4, zone4);
+        zoneGameObjects.Add(5, zone5);
     }
 
     void OnTriggerStay(Collider other)
@@ -34,7 +37,8 @@ public class EnigmeButton : MonoBehaviour
                 currentZone++;
                 if (currentZone > 4)
                 {
-                    Destroy(ObjetaUnlock);
+                    Instantiate(Portail);
+                    Debug.Log ("oui");
                 }
                 else
                 {

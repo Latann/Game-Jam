@@ -9,7 +9,7 @@ public class EnigmeButton : MonoBehaviour
     public GameObject zone3;
     public GameObject zone4;
     public GameObject ObjetaUnlock;
- 
+
 
     private int currentZone = 1;
     private int lastZone = 0;
@@ -40,24 +40,12 @@ public class EnigmeButton : MonoBehaviour
                 {
                     // Change couleur du boutton
                     zoneGameObjects[currentZone - 1].GetComponent<Renderer>().material.color = Color.green;
-                    
+
                 }
-            }
-        }
-        else if (other.gameObject.CompareTag("Zone" + (currentZone - 1)))
-        {
-            currentZone--;
-        }
-        else
-        {
-            // Reset l'ordre si erreur
-            currentZone = 1;
-            foreach (var zoneGameObject in zoneGameObjects.Values)
-            {
-                zoneGameObject.GetComponent<Renderer>().material.color = Color.white;
             }
         }
     }
 }
+
 
 
